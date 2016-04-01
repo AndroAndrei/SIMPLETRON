@@ -16,6 +16,7 @@ void ImprimirBienvenida(void);  //Mensaje de Bienvenida al simulador de la maqui
 void CargarBanco_M(int,int,int mem[]);//Cargar un banco parcial de la memoria
 void Ejecutar(int mem[],int *,int *,int *,int *,int *); //Ejecutar las instrucciones almacenadas en la memoria
 
+//begin code
 int main()
 {
   int i=0,pcodigo=0;
